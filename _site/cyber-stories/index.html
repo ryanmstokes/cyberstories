@@ -735,37 +735,7 @@ var callfunction = function(){
 
 
 
-      var invader = document.getElementsByClassName('invader'),
-      		width = $(document).innerWidth(),
-      		traverseDuration = 6,
-      		distanceDown = 50,
-      		moveSpeed = 1.5;
-
-      function moveDown() {
-      	distanceDown += 50;
-      	moveSpeed += 0.20;
-      	TweenMax.set('section', { marginTop: distanceDown });
-      	// Adjust the invader movement speed. 2 is double speed.
-      	moveTl.timeScale(moveSpeed);
-      	traverseTl.timeScale(moveSpeed);
-      }
-
-      var moveTl = new TimelineMax({
-      	repeat:-1,
-      	duration:1
-      })
-
-      var traverseTl = new TimelineMax({
-      	repeat:-1
-      });
-
-      moveTl.set(invader, {className:'+=move', delay:1})
-      	.set(invader, {className:'-=move', delay:1});
-
-      traverseTl.to('section', traverseDuration, { x:width, ease: Power0.easeNone, onComplete:moveDown })
-      					.to('section', traverseDuration, { x:0, ease: Power0.easeNone, onComplete:moveDown});
-
-
+  
 </script>
 </body>
 </html>
