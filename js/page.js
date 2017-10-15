@@ -46,6 +46,7 @@ var callfunction = function(){
     }
   },1200);
   var contact_section = document.getElementById('sovog-container');
+  contact_section.style.zIndex = 99;
   contact_section.style.opacity = 1;
   contact_section.style.transform = 'scale(3) translateX(100%) rotateZ(0deg) translateY(-0.5rem)';
   contact_section.style.top = '40%';
