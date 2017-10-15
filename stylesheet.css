@@ -582,7 +582,7 @@ color: #d2d2d2;
   position: absolute;
   top: 10%;
   left: 50%;
-  z-index: 999;
+  z-index: 999999;
   perspective: 2000px;
   transform: translateX(-50%) scale(0.3);
 
