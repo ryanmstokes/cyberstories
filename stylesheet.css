@@ -80,7 +80,7 @@ text-transform: uppercase;
 }
 #contact_section .container{
   width:auto !important;
-  padding:2rem;
+  padding:0;
 }
 .contact-us{
   background: url('/img/8bitemail.png');
