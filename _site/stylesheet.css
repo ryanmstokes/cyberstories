@@ -131,7 +131,7 @@ float:left;
     background: url(/img/audio-on.png);
     background-size: 30px 30px;
     background-repeat: no-repeat;
-    float: right;
+    float: left;
     width: 30px;
     overflow: visible;
     height: 30px;
@@ -139,14 +139,11 @@ float:left;
 }
 
 .sound-icon:hover,.sound-icon.off{
-  position: fixed;
-  top:1rem;
-  right:10%;
   z-index: 999;
     background: url(/img/audio-off.png);
     background-size: 30px 30px;
     background-repeat: no-repeat;
-    float: right;
+    float: left;
     width: 30px;
     overflow: visible;
     height: 30px;
@@ -167,7 +164,7 @@ float:left;
   margin-top: 0.7rem;
   float: right;
   margin-right:0.6rem;
-  z-index: 999;
+  z-index: 99999;
 }
 .toolbar *{
   float:left;
