@@ -818,7 +818,9 @@ color: #d2d2d2;
 
 /* Larger than mobile screen */
 @media (min-width: 40.0rem) {
-
+.footer-logo img{
+  width:158px;
+}
   .footer2 strong{
   float:left;
   }
