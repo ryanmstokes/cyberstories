@@ -167,6 +167,7 @@ float:left;
   margin-top: 0.7rem;
   float: right;
   margin-right:0.6rem;
+  z-index: 999;
 }
 .toolbar *{
   float:left;
@@ -377,10 +378,16 @@ width:100%;
 
 
 
-
+.address{
+  font-family: arial;
+  font-weight: 200;
+  color: white;
+  margin-top: 0.3rem;
+}
 
 
 .footer2{
+  opacity: 0.7;
   width:100%;
   z-index: 9999;
   position: fixed;
@@ -391,6 +398,12 @@ margin: 0;
 left: 0;
 right: 0;
 }
+.footer2 strong{
+  margin-bottom:0.2rem;
+  color: #403e3e;
+}
+
+
 .footer2.down{
   display: inline-block;
   position: relative;
@@ -400,8 +413,8 @@ right: 0;
 .contact-section-wrapper{
   display: inline-block;
   width:100%;
-  height:100%;
 }
+
 
 .footer-title{
   max-width:200px;
@@ -809,6 +822,12 @@ color: #d2d2d2;
 /* Larger than mobile screen */
 @media (min-width: 40.0rem) {
 
+  .footer2 strong{
+  float:left;
+  }
+  .contact-section-wrapper{
+    height:100%;
+  }
   .toolbar{
     width: 19rem;
     margin-top: 1rem;
