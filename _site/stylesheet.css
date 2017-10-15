@@ -36,10 +36,10 @@ p{
   display:none;
 }
 .footer-logo img{
-  width: 47px;
-  background: white;
+  width: 125px;
   padding: 0.3rem;
   margin-bottom: 0.7rem;
+  margin-left:0.7rem;
   border-radius: 6px;
   float: left;
   z-index: 0;
@@ -94,8 +94,8 @@ text-transform: uppercase;
   padding:2rem 2rem 0 2rem;
 }
 .services{
-  margin-top:0.1rem;
-  margin-bottom:0.5rem;;
+  margin-top:0.5rem;
+  margin-bottom:1rem;;
   padding-left: 0;
   display: inline-block;
 }
@@ -127,9 +127,6 @@ float:left;
   width: 32px;
 }
 .sound-icon{
-  position: fixed;
-  top:1rem;
-  right:10%;
   z-index: 999;
     background: url(/img/audio-on.png);
     background-size: 30px 30px;
@@ -167,9 +164,9 @@ float:left;
 }
 .toolbar{
   position: relative;
-  width: 19rem;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
   float: right;
+  margin-right:0.6rem;
 }
 .toolbar *{
   float:left;
@@ -811,6 +808,12 @@ color: #d2d2d2;
 
 /* Larger than mobile screen */
 @media (min-width: 40.0rem) {
+
+  .toolbar{
+    width: 19rem;
+    margin-top: 1rem;
+  }
+
   .footer{
     z-index: 0;
     position:fixed;

@@ -178,6 +178,7 @@ sound.addEventListener('click', function(){
   if(audioFlag == true){
     if(mainMuteFlag == false){
       myAudio.volume = 0;
+        console.log('turn off');
       myAudio.pause();
       sound.classList.add('off');
   }
