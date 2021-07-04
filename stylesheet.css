@@ -35,6 +35,12 @@ p{
 #emailModal{
   display:none;
 }
+
+.cyberstories-logo{
+  display: block; 
+  margin: 0 auto; 
+  width: 380px
+}
 .footer-logo img{
   width: 125px;
   padding: 0.3rem;
@@ -59,7 +65,6 @@ opacity: 1 !important;
 }
 
 .sub-title{
-  font-family: 'alagardmedium';
   font-size: 1.3rem;
   color: rgb(88, 56, 61);
   letter-spacing: 0.1rem;
@@ -83,12 +88,17 @@ text-transform: uppercase;
   padding:0;
 }
 .contact-us{
-  background: url('/img/8bitemail.png');
-  background-size: 1.6rem 1rem;
-  background-repeat: no-repeat;
-  padding-left: 2rem;
-  color: black;
-  text-decoration: none;
+  background: url(/img/email.png);
+    background-size: 1.3rem auto;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    padding-top: 2px;
+}
+
 }
 .box{
   padding:2rem 2rem 0 2rem;
@@ -190,6 +200,11 @@ float:left;
 form{
   margi-top:2rem;
 }
+
+form input, form textarea{
+  font-family: arial
+}
+
 #contact_section{
   display:none;
   position: relative;
@@ -242,12 +257,12 @@ width:95%;
 	padding:5px 10px;
 	font-size: 12px;
 	letter-spacing:1px;
-	background:#dd4545;
+	background:#7e57c2;
 	height:40px;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	color:#FFF;
-	border:2px solid #b43838;
+	border:2px solid #7e57c2;
   -webkit-transition:all .1s ease-in-out;
 	-moz-transition:all .1s ease-in-out;
 	-ms-transition:all .1s ease-in-out;
@@ -373,12 +388,16 @@ width:100%;
   }
 }
 
-
-
+.address-wrap{
+  text-align: center
+}
+.address-inner{
+  display: inline-block;
+}
 .address{
   font-family: arial;
   font-weight: 200;
-  color: white;
+  color: black;
   margin-top: 0.3rem;
 }
 
