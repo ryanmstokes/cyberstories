@@ -1,5 +1,5 @@
 <p>
-    <img src="https://www.cyberstories.io/img/cyberstories.jpg"/>
+    <img src="./img/cyberstories.jpg"/>
 </p>
 
 
