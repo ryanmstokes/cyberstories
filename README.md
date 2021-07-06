@@ -1,5 +1,5 @@
-<p>
-    <img src="./img/cyberstories.jpg"/>
+<p style="text-align:center">
+    <img src="./img/cyberstories.jpg" style="display: inline-block"/>
 </p>
 
 
